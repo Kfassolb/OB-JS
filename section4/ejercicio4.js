@@ -10,5 +10,5 @@ let primeraLetra = nombre.slice(0,1);
 let ultimaLetra = apellido.slice(5,6);
 
 let sinEspacio = estudiante.replace(" ", "")
-let nombreExiste = estudiante.includes("Limber")
+let nombreExiste = estudiante.includes(nombre)
 console.log(nombreExiste);
