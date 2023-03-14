@@ -8,4 +8,3 @@ let sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE
 
 
 console.log(sonIguales);
-
