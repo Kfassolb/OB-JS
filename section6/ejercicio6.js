@@ -8,13 +8,13 @@ listCompra.pop();
 console.log(listCompra);
 
 const listPeliculas = [
-	{ titulo: "Avatar", director: "James Cameron", fecha: 2009 },
-	{ titulo: "Twilight", director: "Catherine Hardwicke", fecha: 2008 },
-	{ titulo: "No Mad Land", director: "Chloé Zhao", fecha: 2020 },
+	{ titulo: "Avatar", director: "James Cameron", fecha: new Date(2009,10, 20) },
+	{ titulo: "Twilight", director: "Catherine Hardwicke", fecha: new Date(2008,1,1) },
+	{ titulo: "No Mad Land", director: "Chloé Zhao", fecha: new Date(2020,1,1) },
 ];
 
 const pelisPosteriores2010 = listPeliculas.filter(
-	(valor) => valor.fecha >= 2010,
+	(valor) => valor.fecha >= new Date(2010,1,1),
 );
 console.log(pelisPosteriores2010);
 
